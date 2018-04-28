@@ -1,1 +1,5 @@
 /rollup.config.js
+
+yarn.lock
+yarn-error.log
+.rpt2_cache/
