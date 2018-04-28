@@ -1,0 +1,27 @@
+{
+  "name": "koa-mount-final",
+  "version": "0.1.0",
+  "description": "koa-mount that doesn't fall through",
+  "main": "dist/bundle.umd.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyaSemenov/koa-mount-final.git"
+  },
+  "author": "Ilya Semenov",
+  "license": "MIT",
+  "homepage": "https://github.com/IlyaSemenov/koa-mount-final",
+  "devDependencies": {
+    "rollup": "^0.58.2",
+    "rollup-plugin-typescript2": "^0.13.0",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "koa-compose": "^4.0.0",
+    "koa-mount": "^3.0.0"
+  }
+}
