@@ -1,6 +1,6 @@
 {
   "name": "koa-mount-final",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "koa-mount that doesn't fall through",
   "main": "dist/bundle.cjs.js",
   "types": "dist/index.d.ts",
