@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "description": "koa-mount that doesn't fall through",
   "main": "dist/bundle.cjs.js",
-  "module": "src/index.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "prepublish": "npm run build"
@@ -16,6 +16,8 @@
   "license": "MIT",
   "homepage": "https://github.com/IlyaSemenov/koa-mount-final",
   "devDependencies": {
+    "@types/koa": "^2.0.45",
+    "@types/koa-mount": "^3.0.1",
     "rollup": "^0.58.2",
     "rollup-plugin-typescript2": "^0.13.0",
     "typescript": "^2.8.3"

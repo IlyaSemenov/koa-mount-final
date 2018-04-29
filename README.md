@@ -11,7 +11,7 @@ This is useful when you have API server and catch-all frontend server (e.g. Nuxt
 ```js
 const Koa = require('koa');
 const mount = require('koa-mount');
-const mountFinal = require('koa-mount-final')
+const mountFinal = require('koa-mount-final').mount
 const Router = require('koa-router')
 
 const api = Router()
