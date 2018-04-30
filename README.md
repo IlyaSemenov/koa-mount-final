@@ -50,3 +50,7 @@ $ GET /api/v1/wazzup
 $ GET /api/v2/wazzup
 Not Found
 ```
+
+## Typescript
+
+The module provides Typescript bindings. They are auto generated and don't use the empty namespace hack. You will probably need to enable `esModuleInterop` in your project.
